@@ -1,13 +1,3 @@
-function buttonFunc(){
-  //onmouseover
-  //onmouseout
-  //onload (when the page loads this is called)
-  alert("yay called");
-  var imageTag = document.getElementById("imgOne");
-  imageTag.width=1000;
-  imageTag.height=2000;
-}
-
 function validate(){
   var passOne = document.getElementById("passOne").value;
   var passTwo = document.getElementById("passTwo").value;
@@ -23,11 +13,4 @@ function validate(){
   else if(passOne!=passTwo){
     alert("Passwords must match");
   }
-  //document.write(passOne);
-  //if(passOne>=8 && passOne==passTwo){
-  //  alert("got it done");
-  //}
-//  else{
-  //  alert("uh no buddy");
-  //}
 }
