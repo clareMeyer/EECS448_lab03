@@ -3,7 +3,7 @@ var i=0;
 
 function previous(){
   if(i==0){
-    i=images.length;
+    i=(images.length)-1;
   }
   else{
     i--;
@@ -11,7 +11,7 @@ function previous(){
   slideShow();
 }
 function next(){
-  if(i==images.length){
+  if(i==(images.length)-1){
     i=0;
   }
   else{
@@ -20,6 +20,6 @@ function next(){
   slideShow();
 }
 function slideShow(){
-  document.write(images[i]);
-  return images[i];
+  var edit=document.getElementById("slideShow");
+  edit.src=images[i];
 }
