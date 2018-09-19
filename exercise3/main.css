@@ -1,8 +1,61 @@
 p {
   color: #008ae6;
   font-family: American Typewriter;
+  font-size: 30px;
+  margin-left: 2%;
 }
 
 body {
   background-color: #b30000;
+  background-image: url(./background.jpg);
+  background-position: right;
+  background-size: 40%;
+  background-repeat: repeat-y;
+}
+
+p.backgroundToo {
+  background-color: blue;
+  display: table;
+  background-size: 50%;
+}
+
+p.paragraphStuff {
+  color: #008ae6;
+  background-color: blue;
+  display: table;
+  background-size: 50%;
+  size: 15px;
+}
+
+iframe {
+  margin-left: 2%;
+  outline-style: dashed;
+  outline-width: 10px;
+  outline-color: #008ae6;
+  margin-top: 2%;
+}
+
+#profile_pic {
+  width: 55%;
+  margin-left: 2%;
+  outline-style: double;
+  outline-width: 10px;
+  outline-color: #008ae6;
+}
+
+#profile_pic:hover {
+  outline-color: red;
+}
+
+a {
+  color: #008ae6;
+  background-color: blue;
+  display: table;
+  background-size: 50%;
+  margin-left: 2%;
+}
+
+a:hover {
+  background-size: 30px;
+  background-color: pink;
 }
