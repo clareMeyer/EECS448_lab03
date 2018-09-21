@@ -6,15 +6,15 @@ function changeBackground(){
   else{
     alert("Must be red, green or blue");
   }
+}
+function changeBorderColor(){
   var bord = document.getElementById("border").value;
-  //if((border == "red") || (border == "green") || (border == "blue")){
-    alert(bord);
+  if((bord == "red") || (bord == "green") || (bord == "blue")){
     document.getElementById("changeMe").style.borderColor=bord;
-
-  //}
-  //else{
-    //alert("Must be red, green or blue");
-  //}
+  }
+  else{
+    alert("Must be red, green or blue");
+  }
 }
 
 function changeWidth(){
@@ -23,7 +23,7 @@ function changeWidth(){
 
 function changeBoth(){
   changeBackground();
-  //changeBorderColor();
+  changeBorderColor();
 
   //changeWidth();
 }
