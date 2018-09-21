@@ -1,25 +1,22 @@
-function changeBorderColor(){
-  //document.write(border);
-  //if((border == "red") || (border == "green") || (border == "blue")){
-  //var paragraph= document.getElementById("changeMe");
-  //var border = document.getElementById("border").value;
-  var back = document.getElementById("background").value;
-  alert(document.getElementById("background").value);
-    alert("called it");
-    document.getElementById("changeMe").style.backgroundColor=back;
-  //}
-  //else{
-  //  alert("Must be red, green or blue");
-  //}
-}
-
 function changeBackground(){
-  if((background.value != "red") || (background.value!= "green") || (background.value != "blue")){
-    alert("Must be red, green or blue");
+  var back = document.getElementById("background").value;
+  if((back == "red") || (back== "green") || (back == "blue")){
+    document.getElementById("changeMe").style.backgroundColor=back;
   }
   else{
-    paragraph.style.backgroundColor = background.value;
+    alert("Must be red, green or blue");
   }
+}
+
+function changeBorderColor(){
+  var bord = document.getElementById("border").value;
+  //if((border == "red") || (border == "green") || (border == "blue")){
+  alert(bord);
+    doument.getElementById("changeMe").style.borderColor="green";
+  //}
+  //else{
+    //alert("Must be red, green or blue");
+  //}
 }
 
 function changeWidth(){
@@ -27,7 +24,8 @@ function changeWidth(){
 }
 
 function changeBoth(){
+  changeBackground();
   changeBorderColor();
-  //changeBackground();
+
   //changeWidth();
 }
