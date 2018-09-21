@@ -6,13 +6,11 @@ function changeBackground(){
   else{
     alert("Must be red, green or blue");
   }
-}
-
-function changeBorderColor(){
   var bord = document.getElementById("border").value;
   //if((border == "red") || (border == "green") || (border == "blue")){
-  alert(bord);
-    doument.getElementById("changeMe").style.borderColor="green";
+    alert(bord);
+    document.getElementById("changeMe").style.borderColor=bord;
+
   //}
   //else{
     //alert("Must be red, green or blue");
@@ -25,7 +23,7 @@ function changeWidth(){
 
 function changeBoth(){
   changeBackground();
-  changeBorderColor();
+  //changeBorderColor();
 
   //changeWidth();
 }
