@@ -1,3 +1,25 @@
 body {
   margin:10%;
+  background-color: #0b18c4;
+}
+
+p {
+  color: #ff1616;
+}
+
+#changeMe {
+  color: black;
+  background-color: #fff56b;
+  border-color: #ff1616;
+  border-style: groove;
+  border-width: 30px;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+input {
+  width: 40%;
+  height: 15%;
+  margin: 2%;
+  font-weight: bold;
 }
