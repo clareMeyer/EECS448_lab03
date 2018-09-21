@@ -24,6 +24,12 @@ input {
   font-weight: bold;
 }
 
+button.menu {
+  width: 10%;
+  height: 15%;
+  margin: 10px;
+  float: center;
+}
 button {
   width: 50%;
   height: 20%;
