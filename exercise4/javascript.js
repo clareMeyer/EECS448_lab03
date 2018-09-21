@@ -3,14 +3,14 @@ var border = document.getElementById("border").value;
 var background = document.getElementById("background").value;
 
 function changeBorderColor(){
-  document.write(border);
-  if((border == "red") || (border == "green") || (border == "blue")){
+  //document.write(border);
+  //if((border == "red") || (border == "green") || (border == "blue")){
     alert("called it");
-    paragraph.style.borderColor = border.value;
-  }
-  else{
-    alert("Must be red, green or blue");
-  }
+    document.getElementById("changeMe").style.backgroundColor="blue";
+  //}
+  //else{
+  //  alert("Must be red, green or blue");
+  //}
 }
 
 function changeBackground(){
@@ -28,6 +28,6 @@ function changeWidth(){
 
 function changeBoth(){
   changeBorderColor();
-  changeBackground();
-  changeWidth();
+  //changeBackground();
+  //changeWidth();
 }
