@@ -1,6 +1,6 @@
 body {
   margin:10%;
-  background-color: #0b18c4;
+  background-color: #fff56b;
 }
 
 p {
@@ -22,4 +22,9 @@ input {
   height: 15%;
   margin: 2%;
   font-weight: bold;
+}
+
+button {
+  width: 50%;
+  height: 20%;
 }

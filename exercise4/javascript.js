@@ -18,12 +18,17 @@ function changeBorderColor(){
 }
 
 function changeWidth(){
-
+  var widthChange = document.getElementById("widthy").value;
+  if(isNaN(widthChange)){
+    alert("Must be a number");
+  }
+  else{
+    document.getElementById("changeMe").style.borderWidth=widthChange+'px';
+  }
 }
 
 function changeBoth(){
   changeBackground();
   changeBorderColor();
-
-  //changeWidth();
+  changeWidth();
 }
