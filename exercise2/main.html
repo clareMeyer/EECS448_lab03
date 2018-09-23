@@ -1,3 +1,10 @@
+<!--
+main.html
+Author: Clare Meyer
+Lab: 03; Exercise: 02
+image is changed when buttons pressed through functions from slideShow.js
+-->
+
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href= "main.css" />
@@ -7,18 +14,22 @@
 
   <body>
     <p>Pupper Slideshow</p>
+
+    <!--buttons to naviagte between exercises-->
     <div class="yes" >
       <button class="menu" onclick="location.href='../index.html'">Homepage</button>
       <button class="menu" onclick="location.href='../exercise1/main.html'">Exercise 1</button>
       <button class="menu" onclick="location.href='../exercise3/main.html'">Exercise 3</button>
       <button class="menu" onclick="location.href='../exercise4/main.html'">Exercise 4</button></br>
     </div>
-</br>
+    </br>
 
+    <!--image that is changed when the buttons are pressed-->
     <img id="slideShow" src="./puppy1.jpg" style="width:675px;height:500px">
 
     </br>
 
+    <!--buttons that navigate through the five pictures with function from slideShow.js-->
     <div class="bottom">
       <button placeholder="Previous" onclick="previous()">Previous</button>
       <button placeholder="Next" onclick=next()>Next</button></br>

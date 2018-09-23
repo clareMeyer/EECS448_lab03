@@ -2,7 +2,7 @@
 java1.js
 Author: Clare Meyer
 Lab: 03; Exercise: 01
-functions for index.html
+functions for main.html
  */
 
 //checks if passwords are the same and at least 8 characters

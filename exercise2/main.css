@@ -1,3 +1,10 @@
+/*
+main.css
+Author: Clare Meyer
+Lab: 03; Exercise: 02
+style for main.html
+ */
+
 body {
   flex-direction: row;
   background-color: #4286f4;
@@ -10,18 +17,22 @@ img {
   border-style:groove;
   border-color: black;
 }
+
+/*menu button styling*/
 div.yes {
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
 
+/*previous and next button styling*/
 div.bottom {
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
 
+/*styling for both sets of buttons*/
 button {
   margin: 3px;
   height:5%;
