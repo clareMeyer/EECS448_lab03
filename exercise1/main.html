@@ -1,3 +1,10 @@
+<!--
+main.html
+Author: Clare Meyer
+Lab: 03; Exercise: 01
+text fields checked with java1.js
+-->
+
 <html>
   <head>
     <script type="text/javascript" src="java1.js"></script>
@@ -5,6 +12,7 @@
   </head>
 
   <body>
+    <!--buttons to naviagte between exercises-->
     <button class="menu" onclick="location.href='../index.html'">Homepage</button>
     <button class="menu" onclick="location.href='../exercise2/main.html'">Exercise 2</button>
     <button class="menu" onclick="location.href='../exercise3/main.html'">Exercise 3</button>
@@ -13,8 +21,12 @@
 
     <p>Please create a password</p>
     <p>Must be at least 8 characters</p>
+    
+    <!--text input for passwords-->
     <input id="passOne" type="text" placeholder="Password" minlength="8" required><br/>
     <input id="passTwo" type="text" placeholder="Password" minlength="8" required></br>
+
+    <!--button to validate passwords, calls function from java1.js-->
     <button placeholder="Validate" onclick=validate() value="validate">Validate</button></br>
 
   </body>
