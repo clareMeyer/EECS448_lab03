@@ -1,3 +1,10 @@
+/*
+main.css
+Author: Clare Meyer
+Lab: 03; Exercise: 04
+style for main.html
+ */
+
 body {
   margin:10%;
   background-color: #fff56b;
@@ -7,6 +14,7 @@ p {
   color: #ff1616;
 }
 
+/*styling for paragraph inside the box that is being changed*/
 #changeMe {
   color: black;
   background-color: #fff56b;
@@ -17,6 +25,7 @@ p {
   padding: 30px;
 }
 
+/*styling for the input text boxes*/
 input {
   width: 40%;
   height: 15%;
@@ -24,12 +33,15 @@ input {
   font-weight: bold;
 }
 
+/*styling for the buttons that navigate through the exercises*/
 button.menu {
   width: 10%;
   height: 15%;
   margin: 10px;
   float: center;
 }
+
+/*styling for the button that implements the changes to the box*/
 button {
   width: 50%;
   height: 20%;
