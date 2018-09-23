@@ -1,3 +1,10 @@
+/*
+index.css
+Author: Clare Meyer
+Lab: 03; Exercise: 05
+style for index.html
+ */
+
 body {
   background-image: url("./image.jpg");
 }
@@ -8,6 +15,7 @@ p {
   color: white;
 }
 
+/*positioning for the buttons that navigate through the different exercises*/
 div.container {
   background: red;
   height: 100%;
@@ -15,6 +23,7 @@ div.container {
   margin: auto;
 }
 
+/*styling for the buttons that navigate through the different exercises*/
 button {
   width: 80%;
   height: 10%;
